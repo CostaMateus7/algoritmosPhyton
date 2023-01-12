@@ -70,21 +70,21 @@
 # else:
 #   print('Sinal inválido')
 
-kwh = float(input('Digite a qtde de kWh consumida: '))
-instal = input('Digite o tipo de instalação Comercial(C), Residencial(R), Industrial(I): ')
+# kwh = float(input('Digite a qtde de kWh consumida: '))
+# instal = input('Digite o tipo de instalação Comercial(C), Residencial(R), Industrial(I): ')
 
-if(instal == 'R'):
-  if(kwh <= 500):
-    print(kwh*0.40)
-  else:
-    print(kwh*0.65)
-elif(instal == 'C'):
-  if(kwh <= 1000):
-    print(kwh*0.55)
-  else:
-    print(kwh*0.60)
-elif(instal == 'R'):
-  if(kwh <= 5000):
-    print(kwh*0.55)
-  else:
-    print(kwh*0.60)
+# if(instal == 'R'):
+#   if(kwh <= 500):
+#     print(kwh*0.40)
+#   else:
+#     print(kwh*0.65)
+# elif(instal == 'C'):
+#   if(kwh <= 1000):
+#     print(kwh*0.55)
+#   else:
+#     print(kwh*0.60)
+# elif(instal == 'R'):
+#   if(kwh <= 5000):
+#     print(kwh*0.55)
+#   else:
+#     print(kwh*0.60)
