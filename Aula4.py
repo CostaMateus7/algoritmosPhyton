@@ -97,24 +97,24 @@
 #     break
 #   continue
 
-dinheiro = 0 
-pessoas = 0
-print("Para sair, digite 'sair' ou digite a idade do cliente: ")
-while True:
+# dinheiro = 0 
+# pessoas = 0
+# print("Para sair, digite 'sair' ou digite a idade do cliente: ")
+# while True:
   
-  age = input('Digite sua idade: ')
-  if(age == 'sair'):
-    print('Total: {}'.format(dinheiro))
-    print(pessoas, ' Pessoas')
-    break
-  pessoas+=1
-  age = int(age)
+#   age = input('Digite sua idade: ')
+#   if(age == 'sair'):
+#     print('Total: {}'.format(dinheiro))
+#     print(pessoas, ' Pessoas')
+#     break
+#   pessoas+=1
+#   age = int(age)
 
-  if(age<3):
-    print('Ingresso gratuito')
-  elif(age>=3 and age<=12):
-    print('Entrada: R$15,00')
-    dinheiro+=15
-  elif(age>12):
-    print('Entrada: R$30,00')
-    dinheiro+=30
+#   if(age<3):
+#     print('Ingresso gratuito')
+#   elif(age>=3 and age<=12):
+#     print('Entrada: R$15,00')
+#     dinheiro+=15
+#   elif(age>12):
+#     print('Entrada: R$30,00')
+#     dinheiro+=30
